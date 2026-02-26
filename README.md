@@ -1,44 +1,37 @@
-# Amazon Web Scraping using Python (BeautifulSoup)
+# Amazon Web Scraping using Python
 
 ## Project Overview
-This project demonstrates how to perform **Web Scraping on Amazon Website** using Python libraries such as **Requests** and **BeautifulSoup**.
 
-The main objective of this project is to automatically extract product-related information such as:
+This project demonstrates how to extract product data from Amazon using Python and BeautifulSoup.
+
+The script automatically collects:
 
 - Product Name
 - Price
 - Ratings
 - Reviews
-- Customer Details
 
-Instead of manually collecting data from Amazon, this automation script collects data directly from the HTML structure of the webpage.
-
+No manual data collection required — everything is automated using Python.
 
 ## Technologies Used
 
 - Python
 - Requests
-- BeautifulSoup (bs4)
-- LXML Parser
-- CSV (for data storage)
-- Jupyter Notebook
+- BeautifulSoup
+- LXML
+- CSV
 
+## How It Works
 
-## Project Workflow
+- Send request to Amazon webpage
+- Parse HTML using BeautifulSoup
+- Extract required product details
+- Store data in CSV file
 
-1. Send request to Amazon webpage using Requests Library  
-2. Use User-Agent to avoid bot detection  
-3. Get HTML content of webpage  
-4. Parse HTML using BeautifulSoup  
-5. Extract product information  
-6. Store extracted data into CSV file  
+## Output
 
-```
-## Project Structure
-
-Amazon-Web-Scraping/
-│
-├── Amazon_Web_Scraping.ipynb
-├── README.md
-└── output.csv
-```
+Structured product data ready for: 
+- Data Analysis
+- Price Tracking
+- Market Research
+- Automation Projects
