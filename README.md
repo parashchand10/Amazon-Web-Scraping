@@ -15,11 +15,11 @@ No manual data collection required — everything is automated using Python.
 
 ## Technologies Used
 
-- Python
-- Requests
-- BeautifulSoup
-- LXML
-- CSV
+- Python – Main programming language used to build the web scraping script.
+- Requests – Sends HTTP requests to fetch webpage content from Amazon.
+- BeautifulSoup – Parses HTML and extracts required data from the webpage.
+- LXML – Fast and efficient parser used to process HTML structure.
+- CSV – Stores the extracted data in a structured file format for analysis.
 
 ## How It Works
 
